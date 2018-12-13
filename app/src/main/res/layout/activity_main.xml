@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent">
+
+
+    <Spinner
+        android:id="@+id/metric_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        />
+
+    <!--Edit text to show hint and enter number input type
+    inputType  = number allow only number input
+    imeOptions hide the keyboard when clicking on done after typing
+    -->
+    <EditText
+        android:id="@+id/hint_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:imeOptions="actionDone"
+        android:layout_below="@id/metric_list"
+        android:inputType="number"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        />
+    <!--Submit button-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:text="Submit"/>
+
+
+</RelativeLayout>

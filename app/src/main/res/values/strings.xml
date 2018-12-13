@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">csci_3308_con_metric</string>
+    <string name="metric1">Temperature Celsius--->>>Fahrenheit</string>
+    <string name="metric2">Weight Kilogram--->>>Pounds</string>
+    <string name="metric3">Distance Kilometers----->>>Miles</string>
+
+    <string name="hint1">Enter the temperature in Celsius </string>
+    <string name="hint2">Enter the weight in Kilogram</string>
+    <string name="hint3">Enter the distance in Kilometers</string>
+
+</resources>
