@@ -1,4 +1,4 @@
-##CSCI 3308 Project
+## CSCI 3308 Project
 
 #### Title : Conversion_metric
 **Member** : Inderpal Dhillon
